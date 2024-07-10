@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    color: #fff;
+    padding: 20px 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('header-image.png'); /* Set the background image */
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+nav select,
+nav button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e50914;
+    color: #fff;
+}
+nav button:hover{
+    background-color: #830208;
+    color: #fff;
+}
+nav select {
+    appearance: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-content form {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.hero-content button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+.hero-content button:hover[type="submit"]{
+    background-color: #830208;
+    color: #fff;
+}
+.featured {
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.featured h2 {
+    font-size: 4rem;
+    font-style: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.faq {
+    margin-top: 50px;
+    color:#ffffff;
+    align-items: center;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.faq-list {
+    list-style: none;
+    padding: 0;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+details p {
+    margin-top: 10px;
+    margin-left: 20px; 
+}
+
+footer {
+    background-color: #111;
+    color: #d1cdcd;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    
+    text-decoration: underline;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.thin-grey-line {
+    border-bottom: 10px solid #4e4e4e;
+    margin-bottom: 40px; /* Increased margin for better visibility */
+    padding-bottom: 20px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make hero section full viewport height */
+}
+.hero-content {
+    text-align: center;
+    max-width: 600px;
+    color: #fff;
+}
